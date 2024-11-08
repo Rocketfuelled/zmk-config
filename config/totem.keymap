@@ -69,10 +69,10 @@
         Media {
             display-name = "Media";
             bindings = <
-        &to 1   &trans  &trans  &trans  &trans    &kp K_REDO    &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO
-        &to 8   &trans  &trans  &trans  &trans    &kp CAPSLOCK  &kp LEFT     &kp UP_ARROW   &kp DOWN     &kp RIGHT
-&trans  &to 9   &trans  &trans  &trans  &trans    &kp INSERT    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans
-                        &trans  &trans  &trans    &trans        &trans       &trans
+        &to Base    &trans  &trans  &trans  &trans    &kp K_REDO    &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO
+        &to Game    &trans  &trans  &trans  &trans    &kp CAPSLOCK  &kp LEFT     &kp UP_ARROW   &kp DOWN     &kp RIGHT
+&trans  &to Colemak &trans  &trans  &trans  &trans    &kp INSERT    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans
+                            &trans  &trans  &trans    &trans        &trans       &trans
             >;
         };
 
@@ -139,9 +139,9 @@
         Colemak {
             display-name = "Colemak";
             bindings = <
-              &kp Q       &kp W       &kp E          &kp R         &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
-              &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G        &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp V         &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
+              &kp Q       &kp W       &kp F          &kp P         &kp B        &kp J      &kp L        &kp U        &kp Y       &kp APOSTROPHE
+              &hm LGUI A  &hm LALT R  &hm LCTRL S    &hm LSHIFT T  &kp G        &kp M      &hm RSHFT K  &hm RCTRL E  &hm RALT I  &hm RGUI O
+&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp D         &kp V        &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH           &kp SEMICOLON
                                       &lt 1 DEL      &lt 2 SPACE   &lt 3 TAB    &lt 4 RET  &lt 5 BSPC   &lt 6 MINUS
             >;
         };

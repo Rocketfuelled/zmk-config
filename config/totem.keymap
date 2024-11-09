@@ -54,12 +54,12 @@
         compatible = "zmk,combos";
 
         toggle-gaming {
-            bindings = <&tog 7>;
+            bindings = <&tog 8>;
             key-positions = <1 0 2>;
         };
 
         to-colemak {
-            bindings = <&to 8>;
+            bindings = <&to 1>;
             key-positions = <7 8 9>;
         };
     };
@@ -72,8 +72,18 @@
             bindings = <
               &kp Q       &kp W       &kp E        &kp R         &kp T        &kp Y      &kp U        &kp I        &kp O       &kp P
               &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHIFT F  &kp G        &kp H      &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C        &kp V         &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
-                                      &lt 1 DEL    &lt 2 SPACE   &lt 3 TAB    &lt 4 RET  &lt 5 BSPC   &lt 6 MINUS
+&lt 4 ESCAPE  &kp Z       &kp X       &kp C        &kp V         &kp B        &kp N      &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
+                                      &lt 2 DEL    &lt 3 SPACE   &lt 4 TAB    &lt 5 RET  &lt 6 BSPC   &lt 7 MINUS
+            >;
+        };
+
+        Colemak {
+            display-name = "Colemak";
+            bindings = <
+              &kp Q       &kp W       &kp F        &kp P         &kp B        &kp J      &kp L        &kp U        &kp Y       &kp APOSTROPHE
+              &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T  &kp G        &kp M      &hm RSHFT K  &hm RCTRL E  &hm RALT I  &hm RGUI O
+&lt 4 ESCAPE  &kp Z       &kp X       &kp C        &kp D         &kp V        &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH       &kp SEMICOLON
+                                      &lt 2 DEL    &lt 3 SPACE   &lt 4 TAB    &lt 5 RET  &lt 6 BSPC   &lt 7 MINUS
             >;
         };
 
@@ -144,16 +154,6 @@
             &kp TAB         &kp A  &kp W         &kp D      &kp F        &trans  &trans  &trans  &trans  &trans
 &kp ESCAPE  &kp LEFT_SHIFT  &kp Z  &kp S         &kp C      &kp V        &trans  &trans  &trans  &trans  &trans  &trans
                                    &kp LEFT_ALT  &kp LCTRL  &kp SPACE    &trans  &trans  &trans
-            >;
-        };
-
-        Colemak {
-            display-name = "Colemak";
-            bindings = <
-              &kp Q       &kp W       &kp F        &kp P         &kp B        &kp J      &kp L        &kp U        &kp Y       &kp APOSTROPHE
-              &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T  &kp G        &kp M      &hm RSHFT K  &hm RCTRL E  &hm RALT I  &hm RGUI O
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C        &kp D         &kp V        &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH       &kp SEMICOLON
-                                      &lt 1 DEL    &lt 2 SPACE   &lt 3 TAB    &lt 4 RET  &lt 5 BSPC   &lt 6 MINUS
             >;
         };
     };

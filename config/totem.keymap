@@ -20,9 +20,8 @@
 #define Sym         4
 #define Num         5
 #define Fun         6
-#define Button      7
-#define Game        8
-#define Colemak     9
+#define Game        7
+#define Colemak     8
 
 &mt {
     quick-tap-ms = <100>;
@@ -69,9 +68,9 @@
         Media {
             display-name = "Media";
             bindings = <
-        &to Base    &trans  &trans  &trans  &trans    &kp K_REDO    &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO
-        &to Game    &trans  &trans  &trans  &trans    &kp CAPSLOCK  &kp LEFT     &kp UP_ARROW   &kp DOWN     &kp RIGHT
-&trans  &to Colemak &trans  &trans  &trans  &trans    &kp INSERT    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans
+         &trans   &trans    &trans  &trans  &trans    &kp K_REDO    &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO
+         &trans   &trans    &trans  &trans  &trans    &kp CAPSLOCK  &kp LEFT     &kp UP_ARROW   &kp DOWN     &kp RIGHT
+&trans   &trans   &trans    &trans  &trans  &trans    &kp INSERT    &kp HOME     &kp PAGE_DOWN  &kp PAGE_UP  &kp END     &trans
                             &trans  &trans  &trans    &trans        &trans       &trans
             >;
         };

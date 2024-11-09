@@ -58,8 +58,8 @@
             key-positions = <1 0 2>;
         };
 
-        to-colemak {
-            bindings = <&to 1>;
+        toggle-colemak {
+            bindings = <&tog 1>;
             key-positions = <7 8 9>;
         };
     };
@@ -81,7 +81,7 @@
             display-name = "Colemak";
             bindings = <
               &kp Q       &kp W       &kp F        &kp P         &kp B        &kp J      &kp L        &kp U        &kp Y       &kp APOSTROPHE
-              &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T  &kp G        &kp M      &hm RSHFT K  &hm RCTRL E  &hm RALT I  &hm RGUI O
+              &hm LGUI A  &hm LALT R  &hm LCTRL S  &hm LSHIFT T  &kp G        &kp M      &hm RSHFT N  &hm RCTRL E  &hm RALT I  &hm RGUI O
 &lt 4 ESCAPE  &kp Z       &kp X       &kp C        &kp D         &kp V        &kp K      &kp H        &kp COMMA    &kp DOT     &kp SLASH       &kp SEMICOLON
                                       &lt 2 DEL    &lt 3 SPACE   &lt 4 TAB    &lt 5 RET  &lt 6 BSPC   &lt 7 MINUS
             >;

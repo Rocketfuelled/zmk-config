@@ -63,7 +63,7 @@
             key-positions = <7 8 9>;
         };
 
-        ctrl-shift-F {
+        ctrlshiftf {
             bindings = <&kp LC(LS(F))>;
             key-positions = <12 13 14>;
         };

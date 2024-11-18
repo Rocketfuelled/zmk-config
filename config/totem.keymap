@@ -87,6 +87,46 @@
             bindings = <&kp LC(V)>;
             key-positions = <24 25>;
         };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <6 7>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
+
+        left-parentheses {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <16 17>;
+        };
+
+        right-parentheses {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <17 18>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <26 15>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <16 27>;
+        };
+
+        left-bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <27 28>;
+        };
+
+        right-bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {

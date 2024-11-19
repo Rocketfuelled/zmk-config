@@ -127,6 +127,11 @@
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <28 29>;
         };
+
+        equals {
+            bindings = <&kp EQUAL>;
+            key-positions = <16 6>;
+        };
     };
 
     keymap {
